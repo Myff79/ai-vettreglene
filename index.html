@@ -167,7 +167,7 @@
         }
 
         .example-bad::before {
-            content: "❌ Dårlig eksempel:";
+            content: "❌ Ikke gjør:";
             font-weight: 700;
             color: #e17055;
             display: block;
@@ -183,7 +183,7 @@
         }
 
         .example-good::before {
-            content: "✅ Godt eksempel:";
+            content: "✅ Gjør heller:";
             font-weight: 700;
             color: #00b894;
             display: block;
@@ -236,6 +236,25 @@
             <path d="M 3 12 Q 9 16 15 12"/>
         </g>
 
+        <!-- More robots scattered -->
+        <g stroke="#000" fill="none" stroke-width="1.5" transform="translate(720,80) rotate(25)">
+            <rect x="0" y="0" width="15" height="15"/>
+            <line x1="7.5" y1="-3" x2="7.5" y2="-8"/>
+            <circle cx="7.5" cy="-10" r="1"/>
+            <circle cx="5" cy="5" r="1"/>
+            <circle cx="10" cy="5" r="1"/>
+            <path d="M 3 10 Q 7.5 13 12 10"/>
+        </g>
+
+        <g stroke="#000" fill="none" stroke-width="2" transform="translate(1100,120) rotate(-35)">
+            <rect x="0" y="0" width="16" height="16"/>
+            <line x1="8" y1="-4" x2="8" y2="-10"/>
+            <circle cx="8" cy="-12" r="1.5"/>
+            <circle cx="5" cy="5" r="1"/>
+            <circle cx="11" cy="5" r="1"/>
+            <path d="M 3 11 Q 8 14 13 11"/>
+        </g>
+
         <!-- Stick figures -->
         <g stroke="#000" fill="none" stroke-width="2" transform="translate(300,80)">
             <circle cx="0" cy="0" r="8"/>
@@ -255,10 +274,130 @@
             <line x1="0" y1="20" x2="5" y2="28"/>
         </g>
 
+        <!-- More stick figures -->
+        <g stroke="#000" fill="none" stroke-width="1.5" transform="translate(950,480) rotate(-15)">
+            <circle cx="0" cy="0" r="5"/>
+            <line x1="0" y1="5" x2="0" y2="18"/>
+            <line x1="0" y1="10" x2="-5" y2="14"/>
+            <line x1="0" y1="10" x2="5" y2="14"/>
+            <line x1="0" y1="18" x2="-4" y2="25"/>
+            <line x1="0" y1="18" x2="4" y2="25"/>
+        </g>
+
+        <g stroke="#000" fill="none" stroke-width="2" transform="translate(80,700) rotate(45)">
+            <circle cx="0" cy="0" r="7"/>
+            <line x1="0" y1="7" x2="0" y2="22"/>
+            <line x1="0" y1="13" x2="-7" y2="18"/>
+            <line x1="0" y1="13" x2="7" y2="18"/>
+            <line x1="0" y1="22" x2="-5" y2="30"/>
+            <line x1="0" y1="22" x2="5" y2="30"/>
+        </g>
+
+        <!-- Geometric shapes - circles -->
+        <g stroke="#000" fill="none" stroke-width="2">
+            <circle cx="120" cy="180" r="12" transform="rotate(-10 120 180)"/>
+            <circle cx="380" cy="120" r="8" transform="rotate(25 380 120)"/>
+            <circle cx="680" cy="320" r="15" transform="rotate(-30 680 320)"/>
+            <circle cx="920" cy="250" r="10" transform="rotate(40 920 250)"/>
+            <circle cx="180" cy="600" r="9" transform="rotate(-20 180 600)"/>
+            <circle cx="520" cy="680" r="13" transform="rotate(15 520 680)"/>
+            <circle cx="1050" cy="580" r="11" transform="rotate(-45 1050 580)"/>
+            <circle cx="780" cy="150" r="7" transform="rotate(60 780 150)"/>
+        </g>
+
+        <!-- Geometric shapes - triangles -->
+        <g stroke="#000" fill="none" stroke-width="2">
+            <polygon points="150,300 165,320 135,320" transform="rotate(20 150 310)"/>
+            <polygon points="480,450 495,470 465,470" transform="rotate(-35 480 460)"/>
+            <polygon points="820,380 835,400 805,400" transform="rotate(50 820 390)"/>
+            <polygon points="320,550 340,580 300,580" transform="rotate(-15 320 565)"/>
+            <polygon points="650,200 670,230 630,230" transform="rotate(30 650 215)"/>
+            <polygon points="1080,350 1100,380 1060,380" transform="rotate(-25 1080 365)"/>
+            <polygon points="220,750 240,780 200,780" transform="rotate(45 220 765)"/>
+        </g>
+
+        <!-- Geometric shapes - squares and rectangles -->
+        <g stroke="#000" fill="none" stroke-width="2">
+            <rect x="90" y="320" width="12" height="12" transform="rotate(35 96 326)"/>
+            <rect x="290" y="480" width="15" height="10" transform="rotate(-40 297.5 485)"/>
+            <rect x="540" y="180" width="10" height="14" transform="rotate(25 545 187)"/>
+            <rect x="780" y="480" width="13" height="13" transform="rotate(-20 786.5 486.5)"/>
+            <rect x="420" y="750" width="11" height="16" transform="rotate(55 425.5 758)"/>
+            <rect x="1020" y="220" width="14" height="9" transform="rotate(-30 1027 224.5)"/>
+            <rect x="160" y="520" width="9" height="12" transform="rotate(40 164.5 526)"/>
+        </g>
+
+        <!-- More arrows in different directions -->
+        <g stroke="#000" fill="none" stroke-width="2">
+            <g transform="translate(140,120) rotate(0)">
+                <line x1="-6" y1="0" x2="6" y2="0"/>
+                <path d="M 3 -2 L 6 0 L 3 2"/>
+            </g>
+            <g transform="translate(340,380) rotate(90)">
+                <line x1="-8" y1="0" x2="8" y2="0"/>
+                <path d="M 4 -2.5 L 8 0 L 4 2.5"/>
+            </g>
+            <g transform="translate(580,280) rotate(-45)">
+                <line x1="-7" y1="0" x2="7" y2="0"/>
+                <path d="M 3.5 -2 L 7 0 L 3.5 2"/>
+            </g>
+            <g transform="translate(760,420) rotate(135)">
+                <line x1="-9" y1="0" x2="9" y2="0"/>
+                <path d="M 5 -2.5 L 9 0 L 5 2.5"/>
+            </g>
+            <g transform="translate(980,180) rotate(-30)">
+                <line x1="-6" y1="0" x2="6" y2="0"/>
+                <path d="M 3 -2 L 6 0 L 3 2"/>
+            </g>
+            <g transform="translate(280,650) rotate(60)">
+                <line x1="-8" y1="0" x2="8" y2="0"/>
+                <path d="M 4 -2.5 L 8 0 L 4 2.5"/>
+            </g>
+            <g transform="translate(1100,450) rotate(-90)">
+                <line x1="-7" y1="0" x2="7" y2="0"/>
+                <path d="M 3.5 -2 L 7 0 L 3.5 2"/>
+            </g>
+        </g>
+
+        <!-- Various lines - straight, curved, dashed -->
+        <g stroke="#000" fill="none" stroke-width="1.5">
+            <!-- Straight lines -->
+            <line x1="80" y1="250" x2="130" y2="280" transform="rotate(-15 105 265)"/>
+            <line x1="320" y1="150" x2="370" y2="170" transform="rotate(45 345 160)"/>
+            <line x1="620" y1="350" x2="680" y2="370" transform="rotate(-25 650 360)"/>
+            <line x1="880" y1="320" x2="940" y2="340" transform="rotate(30 910 330)"/>
+            <line x1="200" y1="480" x2="260" y2="500" transform="rotate(-40 230 490)"/>
+            <line x1="720" y1="580" x2="780" y2="600" transform="rotate(20 750 590)"/>
+            
+            <!-- Curved lines -->
+            <path d="M 160 350 Q 180 330 200 350" transform="rotate(25 180 340)"/>
+            <path d="M 450 280 Q 480 260 510 280" transform="rotate(-20 480 270)"/>
+            <path d="M 750 120 Q 780 100 810 120" transform="rotate(40 780 110)"/>
+            <path d="M 350 620 Q 380 600 410 620" transform="rotate(-35 380 610)"/>
+            <path d="M 1000 280 Q 1030 260 1060 280" transform="rotate(15 1030 270)"/>
+            
+            <!-- Dashed lines -->
+            <line x1="240" y1="200" x2="290" y2="220" stroke-dasharray="3,3" transform="rotate(50 265 210)"/>
+            <line x1="550" y1="450" x2="600" y2="470" stroke-dasharray="4,2" transform="rotate(-45 575 460)"/>
+            <line x1="850" y1="550" x2="900" y2="570" stroke-dasharray="2,4" transform="rotate(35 875 560)"/>
+            <line x1="120" y1="680" x2="170" y2="700" stroke-dasharray="5,3" transform="rotate(-25 145 690)"/>
+        </g>
+
         <!-- Speech bubbles -->
         <g stroke="#000" fill="none" stroke-width="2" transform="translate(600,100)">
             <ellipse cx="0" cy="0" rx="15" ry="10"/>
             <path d="M -8 8 L -5 12 L -3 8"/>
+        </g>
+
+        <!-- More speech bubbles -->
+        <g stroke="#000" fill="none" stroke-width="1.5" transform="translate(180,380) rotate(25)">
+            <ellipse cx="0" cy="0" rx="12" ry="8"/>
+            <path d="M -6 6 L -4 10 L -2 6"/>
+        </g>
+
+        <g stroke="#000" fill="none" stroke-width="2" transform="translate(920,380) rotate(-30)">
+            <ellipse cx="0" cy="0" rx="14" ry="9"/>
+            <path d="M 7 7 L 4 11 L 2 7"/>
         </g>
 
         <!-- Light bulbs -->
@@ -271,10 +410,40 @@
             <line x1="6" y1="0" x2="10" y2="0"/>
         </g>
 
+        <!-- More light bulbs -->
+        <g stroke="#000" fill="none" stroke-width="1.5" transform="translate(480,580) rotate(40)">
+            <circle cx="0" cy="0" r="6"/>
+            <rect x="-2" y="6" width="4" height="3"/>
+            <line x1="-8" y1="-6" x2="-5" y2="-3"/>
+            <line x1="5" y1="-3" x2="8" y2="-6"/>
+            <line x1="-7" y1="0" x2="-4" y2="0"/>
+            <line x1="4" y1="0" x2="7" y2="0"/>
+        </g>
+
+        <g stroke="#000" fill="none" stroke-width="2" transform="translate(1080,680) rotate(-50)">
+            <circle cx="0" cy="0" r="7"/>
+            <rect x="-2.5" y="7" width="5" height="3"/>
+            <line x1="-9" y1="-7" x2="-6" y2="-4"/>
+            <line x1="6" y1="-4" x2="9" y2="-7"/>
+            <line x1="-8" y1="0" x2="-5" y2="0"/>
+            <line x1="5" y1="0" x2="8" y2="0"/>
+        </g>
+
         <!-- Question marks -->
         <g stroke="#000" fill="none" stroke-width="3" transform="translate(800,150) rotate(-15)">
             <path d="M 0 -10 Q 8 -10 8 -2 Q 8 2 4 4 Q 2 6 2 8"/>
             <circle cx="2" cy="12" r="1.5"/>
+        </g>
+
+        <!-- More question marks -->
+        <g stroke="#000" fill="none" stroke-width="2" transform="translate(360,720) rotate(30)">
+            <path d="M 0 -8 Q 6 -8 6 -2 Q 6 1 3 3 Q 1.5 4.5 1.5 6"/>
+            <circle cx="1.5" cy="9" r="1"/>
+        </g>
+
+        <g stroke="#000" fill="none" stroke-width="2.5" transform="translate(1120,280) rotate(-40)">
+            <path d="M 0 -9 Q 7 -9 7 -2 Q 7 1.5 3.5 3.5 Q 1.75 5.25 1.75 7"/>
+            <circle cx="1.75" cy="10" r="1.25"/>
         </g>
 
         <!-- Gears -->
@@ -290,9 +459,31 @@
             <rect x="4" y="4" width="4" height="4" transform="rotate(45)"/>
         </g>
 
+        <!-- More gears -->
+        <g stroke="#000" fill="none" stroke-width="1.5" transform="translate(680,650) rotate(25)">
+            <circle cx="0" cy="0" r="8"/>
+            <rect x="-1.5" y="-10" width="3" height="3"/>
+            <rect x="-1.5" y="7" width="3" height="3"/>
+            <rect x="-10" y="-1.5" width="3" height="3"/>
+            <rect x="7" y="-1.5" width="3" height="3"/>
+            <rect x="-6" y="-6" width="3" height="3" transform="rotate(45)"/>
+            <rect x="3" y="-6" width="3" height="3" transform="rotate(45)"/>
+            <rect x="-6" y="3" width="3" height="3" transform="rotate(45)"/>
+            <rect x="3" y="3" width="3" height="3" transform="rotate(45)"/>
+        </g>
+
         <!-- Stars -->
         <g stroke="#000" fill="none" stroke-width="2" transform="translate(700,250)">
             <path d="M 0 -8 L 2 -2 L 8 -2 L 3 2 L 5 8 L 0 4 L -5 8 L -3 2 L -8 -2 L -2 -2 Z"/>
+        </g>
+
+        <!-- More stars -->
+        <g stroke="#000" fill="none" stroke-width="1.5" transform="translate(120,520) rotate(45)">
+            <path d="M 0 -6 L 1.5 -1.5 L 6 -1.5 L 2.25 1.5 L 3.75 6 L 0 3 L -3.75 6 L -2.25 1.5 L -6 -1.5 L -1.5 -1.5 Z"/>
+        </g>
+
+        <g stroke="#000" fill="none" stroke-width="2" transform="translate(1000,650) rotate(-25)">
+            <path d="M 0 -7 L 1.75 -1.75 L 7 -1.75 L 2.625 1.75 L 4.375 7 L 0 3.5 L -4.375 7 L -2.625 1.75 L -7 -1.75 L -1.75 -1.75 Z"/>
         </g>
 
         <!-- Lightning bolts -->
@@ -300,9 +491,27 @@
             <path d="M 0 -10 L -3 0 L 2 0 L 0 10 L 4 0 L -1 0 Z"/>
         </g>
 
+        <!-- More lightning bolts -->
+        <g stroke="#000" fill="none" stroke-width="2" transform="translate(250,100) rotate(-35)">
+            <path d="M 0 -8 L -2.5 0 L 1.5 0 L 0 8 L 3 0 L -0.5 0 Z"/>
+        </g>
+
+        <g stroke="#000" fill="none" stroke-width="2.5" transform="translate(880,720) rotate(50)">
+            <path d="M 0 -9 L -2.75 0 L 1.75 0 L 0 9 L 3.5 0 L -0.75 0 Z"/>
+        </g>
+
         <!-- Hearts -->
         <g stroke="#000" fill="none" stroke-width="2" transform="translate(900,100)">
             <path d="M 0 2 C -6 -4 -12 -4 -6 2 C 0 8 0 8 0 2 C 6 -4 12 -4 6 2 C 0 8 0 8 0 2"/>
+        </g>
+
+        <!-- More hearts -->
+        <g stroke="#000" fill="none" stroke-width="1.5" transform="translate(400,80) rotate(30)">
+            <path d="M 0 1.5 C -4.5 -3 -9 -3 -4.5 1.5 C 0 6 0 6 0 1.5 C 4.5 -3 9 -3 4.5 1.5 C 0 6 0 6 0 1.5"/>
+        </g>
+
+        <g stroke="#000" fill="none" stroke-width="2" transform="translate(580,750) rotate(-20)">
+            <path d="M 0 1.75 C -5.25 -3.5 -10.5 -3.5 -5.25 1.75 C 0 7 0 7 0 1.75 C 5.25 -3.5 10.5 -3.5 5.25 1.75 C 0 7 0 7 0 1.75"/>
         </g>
 
         <!-- Computers/screens -->
@@ -314,6 +523,15 @@
             <line x1="-4" y1="2" x2="4" y2="2"/>
         </g>
 
+        <!-- More computers -->
+        <g stroke="#000" fill="none" stroke-width="1.5" transform="translate(820,720) rotate(-15)">
+            <rect x="-8" y="-5" width="16" height="10"/>
+            <rect x="-6" y="-3" width="12" height="6"/>
+            <line x1="-3" y1="-1" x2="3" y2="-1"/>
+            <line x1="-3" y1="0" x2="3" y2="0"/>
+            <line x1="-3" y1="1" x2="3" y2="1"/>
+        </g>
+
         <!-- Books -->
         <g stroke="#000" fill="none" stroke-width="2" transform="translate(250,450) rotate(-5)">
             <rect x="-8" y="-2" width="16" height="4"/>
@@ -322,7 +540,15 @@
             <line x1="0" y1="-6" x2="0" y2="2"/>
         </g>
 
-        <!-- Arrows -->
+        <!-- More books -->
+        <g stroke="#000" fill="none" stroke-width="1.5" transform="translate(1050,150) rotate(35)">
+            <rect x="-6" y="-1.5" width="12" height="3"/>
+            <rect x="-5" y="-3" width="10" height="3"/>
+            <rect x="-4" y="-4.5" width="8" height="3"/>
+            <line x1="0" y1="-4.5" x2="0" y2="1.5"/>
+        </g>
+
+        <!-- Original arrows -->
         <g stroke="#000" fill="none" stroke-width="2" transform="translate(400,500) rotate(45)">
             <line x1="-8" y1="0" x2="8" y2="0"/>
             <path d="M 4 -3 L 8 0 L 4 3"/>
@@ -337,11 +563,27 @@
             <line x1="3" y1="-8" x2="3" y2="-6"/>
         </g>
 
+        <!-- More coffee cups -->
+        <g stroke="#000" fill="none" stroke-width="1.5" transform="translate(320,220) rotate(40)">
+            <rect x="-5" y="-3" width="10" height="6"/>
+            <path d="M 5 -1.5 Q 8 -1.5 8 1.5 Q 8 4.5 5 4.5"/>
+            <line x1="-2.5" y1="-6" x2="-2.5" y2="-4.5"/>
+            <line x1="0" y1="-6" x2="0" y2="-4.5"/>
+            <line x1="2.5" y1="-6" x2="2.5" y2="-4.5"/>
+        </g>
+
         <!-- Pencils -->
         <g stroke="#000" fill="none" stroke-width="2" transform="translate(850,350) rotate(-20)">
             <rect x="-1" y="-10" width="2" height="20"/>
             <polygon points="-1,-10 0,-15 1,-10"/>
             <rect x="-2" y="8" width="4" height="2"/>
+        </g>
+
+        <!-- More pencils -->
+        <g stroke="#000" fill="none" stroke-width="1.5" transform="translate(180,680) rotate(55)">
+            <rect x="-0.75" y="-8" width="1.5" height="16"/>
+            <polygon points="-0.75,-8 0,-12 0.75,-8"/>
+            <rect x="-1.5" y="6" width="3" height="1.5"/>
         </g>
 
         <!-- Clouds with faces -->
@@ -350,6 +592,14 @@
             <circle cx="-3" cy="-4" r="1"/>
             <circle cx="3" cy="-4" r="1"/>
             <path d="M -2 -1 Q 0 1 2 -1"/>
+        </g>
+
+        <!-- More clouds -->
+        <g stroke="#000" fill="none" stroke-width="1.5" transform="translate(420,650) rotate(25)">
+            <path d="M -6 0 Q -9 -3 -6 -6 Q -3 -9 0 -6 Q 3 -9 6 -6 Q 9 -3 6 0 Z"/>
+            <circle cx="-2" cy="-3" r="0.75"/>
+            <circle cx="2" cy="-3" r="0.75"/>
+            <path d="M -1.5 -0.75 Q 0 0.75 1.5 -0.75"/>
         </g>
 
         <!-- More scattered elements -->
@@ -375,11 +625,713 @@
             <line x1="0" y1="6" x2="0" y2="10"/>
         </g>
 
-        <!-- Repeat pattern for more density -->
+        <!-- Simple icons/symbols -->
+        <!-- Plus signs -->
+        <g stroke="#000" fill="none" stroke-width="2">
+            <g transform="translate(260,320) rotate(20)">
+                <line x1="-5" y1="0" x2="5" y2="0"/>
+                <line x1="0" y1="-5" x2="0" y2="5"/>
+            </g>
+            <g transform="translate(620,80) rotate(-30)">
+                <line x1="-4" y1="0" x2="4" y2="0"/>
+                <line x1="0" y1="-4" x2="0" y2="4"/>
+            </g>
+            <g transform="translate(980,520) rotate(45)">
+                <line x1="-6" y1="0" x2="6" y2="0"/>
+                <line x1="0" y1="-6" x2="0" y2="6"/>
+            </g>
+        </g>
+
+        <!-- Hash/grid symbols -->
+        <g stroke="#000" fill="none" stroke-width="1.5">
+            <g transform="translate(480,120) rotate(-20)">
+                <line x1="-6" y1="-2" x2="6" y2="-2"/>
+                <line x1="-6" y1="2" x2="6" y2="2"/>
+                <line x1="-2" y1="-6" x2="-2" y2="6"/>
+                <line x1="2" y1="-6" x2="2" y2="6"/>
+            </g>
+            <g transform="translate(840,480) rotate(35)">
+                <line x1="-5" y1="-1.5" x2="5" y2="-1.5"/>
+                <line x1="-5" y1="1.5" x2="5" y2="1.5"/>
+                <line x1="-1.5" y1="-5" x2="-1.5" y2="5"/>
+                <line x1="1.5" y1="-5" x2="1.5" y2="5"/>
+            </g>
+        </g>
+
+        <!-- Exclamation marks -->
+        <g stroke="#000" fill="none" stroke-width="2">
+            <g transform="translate(720,600) rotate(-15)">
+                <line x1="0" y1="-8" x2="0" y2="2"/>
+                <circle cx="0" cy="6" r="1.5"/>
+            </g>
+            <g transform="translate(1080,80) rotate(30)">
+                <line x1="0" y1="-6" x2="0" y2="1.5"/>
+                <circle cx="0" cy="4.5" r="1"/>
+            </g>
+        </g>
+
+        <!-- Repeat some elements for even more density -->
         <use href="#robot1" transform="translate(400,150) rotate(45) scale(0.8)"/>
         <use href="#figure1" transform="translate(150,350) rotate(-30) scale(0.9)"/>
         <use href="#bubble1" transform="translate(800,400) rotate(60) scale(1.1)"/>
         <use href="#bulb1" transform="translate(950,300) rotate(-45) scale(0.7)"/>
+        
+        <!-- Additional scattered small elements -->
+        <g stroke="#000" fill="none" stroke-width="1">
+            <circle cx="80" cy="80" r="3" transform="rotate(10 80 80)"/>
+            <circle cx="1150" cy="120" r="2.5" transform="rotate(-20 1150 120)"/>
+            <circle cx="50" cy="780" r="4" transform="rotate(35 50 780)"/>
+            <rect x="1180" y="600" width="6" height="6" transform="rotate(25 1183 603)"/>
+            <rect x="30" y="500" width="5" height="8" transform="rotate(-40 32.5 504)"/>
+            <polygon points="1100,750 1106,760 1094,760" transform="rotate(15 1100 755)"/>
+            <polygon points="70,350 76,360 64,360" transform="rotate(-25 70 355)"/>
+        </g>
+
+        <!-- MASSIVE DENSITY BOOST - Fill every empty space! -->
+        
+        <!-- Mini robots everywhere -->
+        <g stroke="#000" fill="none" stroke-width="1">
+            <g transform="translate(90,120) rotate(60) scale(0.6)">
+                <rect x="0" y="0" width="8" height="8"/>
+                <line x1="4" y1="-2" x2="4" y2="-5"/>
+                <circle cx="4" cy="-6" r="0.8"/>
+                <circle cx="2.5" cy="2.5" r="0.6"/>
+                <circle cx="5.5" cy="2.5" r="0.6"/>
+                <path d="M 1.5 6 Q 4 8 6.5 6"/>
+            </g>
+            <g transform="translate(230,80) rotate(-45) scale(0.5)">
+                <rect x="0" y="0" width="8" height="8"/>
+                <line x1="4" y1="-2" x2="4" y2="-5"/>
+                <circle cx="4" cy="-6" r="0.8"/>
+                <circle cx="2.5" cy="2.5" r="0.6"/>
+                <circle cx="5.5" cy="2.5" r="0.6"/>
+                <path d="M 1.5 6 Q 4 8 6.5 6"/>
+            </g>
+            <g transform="translate(520,100) rotate(30) scale(0.7)">
+                <rect x="0" y="0" width="8" height="8"/>
+                <line x1="4" y1="-2" x2="4" y2="-5"/>
+                <circle cx="4" cy="-6" r="0.8"/>
+                <circle cx="2.5" cy="2.5" r="0.6"/>
+                <circle cx="5.5" cy="2.5" r="0.6"/>
+                <path d="M 1.5 6 Q 4 8 6.5 6"/>
+            </g>
+        </g>
+
+        <!-- Tiny stick figures in every corner -->
+        <g stroke="#000" fill="none" stroke-width="1">
+            <g transform="translate(110,300) rotate(20) scale(0.4)">
+                <circle cx="0" cy="0" r="4"/>
+                <line x1="0" y1="4" x2="0" y2="12"/>
+                <line x1="0" y1="7" x2="-4" y2="10"/>
+                <line x1="0" y1="7" x2="4" y2="10"/>
+                <line x1="0" y1="12" x2="-3" y2="18"/>
+                <line x1="0" y1="12" x2="3" y2="18"/>
+            </g>
+            <g transform="translate(890,140) rotate(-50) scale(0.3)">
+                <circle cx="0" cy="0" r="4"/>
+                <line x1="0" y1="4" x2="0" y2="12"/>
+                <line x1="0" y1="7" x2="-4" y2="10"/>
+                <line x1="0" y1="7" x2="4" y2="10"/>
+                <line x1="0" y1="12" x2="-3" y2="18"/>
+                <line x1="0" y1="12" x2="3" y2="18"/>
+            </g>
+            <g transform="translate(1120,520) rotate(70) scale(0.5)">
+                <circle cx="0" cy="0" r="4"/>
+                <line x1="0" y1="4" x2="0" y2="12"/>
+                <line x1="0" y1="7" x2="-4" y2="10"/>
+                <line x1="0" y1="7" x2="4" y2="10"/>
+                <line x1="0" y1="12" x2="-3" y2="18"/>
+                <line x1="0" y1="12" x2="3" y2="18"/>
+            </g>
+            <g transform="translate(60,600) rotate(-80) scale(0.4)">
+                <circle cx="0" cy="0" r="4"/>
+                <line x1="0" y1="4" x2="0" y2="12"/>
+                <line x1="0" y1="7" x2="-4" y2="10"/>
+                <line x1="0" y1="7" x2="4" y2="10"/>
+                <line x1="0" y1="12" x2="-3" y2="18"/>
+                <line x1="0" y1="12" x2="3" y2="18"/>
+            </g>
+        </g>
+
+        <!-- Super tiny geometric shapes everywhere -->
+        <g stroke="#000" fill="none" stroke-width="1">
+            <!-- Mini circles -->
+            <circle cx="130" cy="90" r="2.5" transform="rotate(15 130 90)"/>
+            <circle cx="210" cy="160" r="3" transform="rotate(-25 210 160)"/>
+            <circle cx="370" cy="90" r="2" transform="rotate(40 370 90)"/>
+            <circle cx="470" cy="170" r="3.5" transform="rotate(-60 470 170)"/>
+            <circle cx="590" cy="130" r="2.8" transform="rotate(80 590 130)"/>
+            <circle cx="710" cy="90" r="2.2" transform="rotate(-45 710 90)"/>
+            <circle cx="830" cy="130" r="3.2" transform="rotate(35 830 130)"/>
+            <circle cx="970" cy="100" r="2.6" transform="rotate(-70 970 100)"/>
+            <circle cx="1090" cy="160" r="2.9" transform="rotate(50 1090 160)"/>
+            <circle cx="1160" cy="90" r="2.4" transform="rotate(-30 1160 90)"/>
+            
+            <!-- Bottom row circles -->
+            <circle cx="90" cy="720" r="2.8" transform="rotate(25 90 720)"/>
+            <circle cx="190" cy="780" r="3.1" transform="rotate(-40 190 780)"/>
+            <circle cx="320" cy="760" r="2.3" transform="rotate(65 320 760)"/>
+            <circle cx="450" cy="720" r="3.4" transform="rotate(-55 450 720)"/>
+            <circle cx="570" cy="770" r="2.7" transform="rotate(75 570 770)"/>
+            <circle cx="690" cy="740" r="2.1" transform="rotate(-35 690 740)"/>
+            <circle cx="810" cy="780" r="3.3" transform="rotate(45 810 780)"/>
+            <circle cx="930" cy="750" r="2.5" transform="rotate(-65 930 750)"/>
+            <circle cx="1070" cy="730" r="2.9" transform="rotate(85 1070 730)"/>
+            <circle cx="1150" cy="780" r="2.6" transform="rotate(-25 1150 780)"/>
+
+            <!-- Mini squares scattered -->
+            <rect x="115" y="200" width="4" height="4" transform="rotate(35 117 202)"/>
+            <rect x="270" y="240" width="5" height="3" transform="rotate(-45 272.5 241.5)"/>
+            <rect x="410" y="260" width="3" height="5" transform="rotate(60 411.5 262.5)"/>
+            <rect x="530" y="220" width="4.5" height="4.5" transform="rotate(-30 532.25 222.25)"/>
+            <rect x="670" y="180" width="3.5" height="4" transform="rotate(75 671.75 182)"/>
+            <rect x="790" y="200" width="5" height="3.5" transform="rotate(-50 792.5 201.75)"/>
+            <rect x="920" y="240" width="4" height="4" transform="rotate(40 922 242)"/>
+            <rect x="1040" y="180" width="3" height="5" transform="rotate(-35 1041.5 182.5)"/>
+            <rect x="1140" y="220" width="4.5" height="3" transform="rotate(55 1142.25 221.5)"/>
+
+            <!-- Mini triangles -->
+            <polygon points="200,350 205,360 195,360" transform="rotate(20 200 355)"/>
+            <polygon points="340,370 345,380 335,380" transform="rotate(-40 340 375)"/>
+            <polygon points="460,340" transform="rotate(60 465 350)"/>
+            <polygon points="580,360 585,370 575,370" transform="rotate(-25 580 365)"/>
+            <polygon points="720,350 725,360 715,360" transform="rotate(45 720 355)"/>
+            <polygon points="840,370 845,380 835,380" transform="rotate(-60 840 375)"/>
+            <polygon points="980,340 985,350 975,350" transform="rotate(30 980 345)"/>
+            <polygon points="1100,360 1105,370 1095,370" transform="rotate(-45 1100 365)"/>
+        </g>
+
+        <!-- Micro arrows pointing everywhere -->
+        <g stroke="#000" fill="none" stroke-width="1">
+            <g transform="translate(160,130) rotate(15)">
+                <line x1="-4" y1="0" x2="4" y2="0"/>
+                <path d="M 2 -1 L 4 0 L 2 1"/>
+            </g>
+            <g transform="translate(290,160) rotate(70)">
+                <line x1="-4" y1="0" x2="4" y2="0"/>
+                <path d="M 2 -1 L 4 0 L 2 1"/>
+            </g>
+            <g transform="translate(420,140) rotate(-30)">
+                <line x1="-4" y1="0" x2="4" y2="0"/>
+                <path d="M 2 -1 L 4 0 L 2 1"/>
+            </g>
+            <g transform="translate(560,110) rotate(120)">
+                <line x1="-4" y1="0" x2="4" y2="0"/>
+                <path d="M 2 -1 L 4 0 L 2 1"/>
+            </g>
+            <g transform="translate(680,160) rotate(-75)">
+                <line x1="-4" y1="0" x2="4" y2="0"/>
+                <path d="M 2 -1 L 4 0 L 2 1"/>
+            </g>
+            <g transform="translate(810,140) rotate(45)">
+                <line x1="-4" y1="0" x2="4" y2="0"/>
+                <path d="M 2 -1 L 4 0 L 2 1"/>
+            </g>
+            <g transform="translate(940,120) rotate(-90)">
+                <line x1="-4" y1="0" x2="4" y2="0"/>
+                <path d="M 2 -1 L 4 0 L 2 1"/>
+            </g>
+            <g transform="translate(1070,150) rotate(85)">
+                <line x1="-4" y1="0" x2="4" y2="0"/>
+                <path d="M 2 -1 L 4 0 L 2 1"/>
+            </g>
+            <g transform="translate(1180,130) rotate(-45)">
+                <line x1="-4" y1="0" x2="4" y2="0"/>
+                <path d="M 2 -1 L 4 0 L 2 1"/>
+            </g>
+        </g>
+
+        <!-- Scattered mini stars -->
+        <g stroke="#000" fill="none" stroke-width="1">
+            <g transform="translate(190,280) rotate(25) scale(0.4)">
+                <path d="M 0 -4 L 1 -1 L 4 -1 L 1.5 1 L 2.5 4 L 0 2 L -2.5 4 L -1.5 1 L -4 -1 L -1 -1 Z"/>
+            </g>
+            <g transform="translate(430,310) rotate(-40) scale(0.5)">
+                <path d="M 0 -4 L 1 -1 L 4 -1 L 1.5 1 L 2.5 4 L 0 2 L -2.5 4 L -1.5 1 L -4 -1 L -1 -1 Z"/>
+            </g>
+            <g transform="translate(640,280) rotate(60) scale(0.3)">
+                <path d="M 0 -4 L 1 -1 L 4 -1 L 1.5 1 L 2.5 4 L 0 2 L -2.5 4 L -1.5 1 L -4 -1 L -1 -1 Z"/>
+            </g>
+            <g transform="translate(860,300) rotate(-70) scale(0.45)">
+                <path d="M 0 -4 L 1 -1 L 4 -1 L 1.5 1 L 2.5 4 L 0 2 L -2.5 4 L -1.5 1 L -4 -1 L -1 -1 Z"/>
+            </g>
+            <g transform="translate(1020,290) rotate(80) scale(0.35)">
+                <path d="M 0 -4 L 1 -1 L 4 -1 L 1.5 1 L 2.5 4 L 0 2 L -2.5 4 L -1.5 1 L -4 -1 L -1 -1 Z"/>
+            </g>
+        </g>
+
+        <!-- Mini lightning bolts -->
+        <g stroke="#000" fill="none" stroke-width="1.5">
+            <g transform="translate(240,520) rotate(15) scale(0.4)">
+                <path d="M 0 -6 L -2 0 L 1 0 L 0 6 L 2.5 0 L -0.5 0 Z"/>
+            </g>
+            <g transform="translate(460,540) rotate(-45) scale(0.3)">
+                <path d="M 0 -6 L -2 0 L 1 0 L 0 6 L 2.5 0 L -0.5 0 Z"/>
+            </g>
+            <g transform="translate(740,520) rotate(70) scale(0.5)">
+                <path d="M 0 -6 L -2 0 L 1 0 L 0 6 L 2.5 0 L -0.5 0 Z"/>
+            </g>
+            <g transform="translate(980,560) rotate(-30) scale(0.35)">
+                <path d="M 0 -6 L -2 0 L 1 0 L 0 6 L 2.5 0 L -0.5 0 Z"/>
+            </g>
+        </g>
+
+        <!-- Tiny hearts everywhere -->
+        <g stroke="#000" fill="none" stroke-width="1">
+            <g transform="translate(170,450) rotate(20) scale(0.3)">
+                <path d="M 0 1 C -3 -2 -6 -2 -3 1 C 0 4 0 4 0 1 C 3 -2 6 -2 3 1 C 0 4 0 4 0 1"/>
+            </g>
+            <g transform="translate(390,480) rotate(-35) scale(0.25)">
+                <path d="M 0 1 C -3 -2 -6 -2 -3 1 C 0 4 0 4 0 1 C 3 -2 6 -2 3 1 C 0 4 0 4 0 1"/>
+            </g>
+            <g transform="translate(610,460) rotate(55) scale(0.4)">
+                <path d="M 0 1 C -3 -2 -6 -2 -3 1 C 0 4 0 4 0 1 C 3 -2 6 -2 3 1 C 0 4 0 4 0 1"/>
+            </g>
+            <g transform="translate(850,470) rotate(-60) scale(0.3)">
+                <path d="M 0 1 C -3 -2 -6 -2 -3 1 C 0 4 0 4 0 1 C 3 -2 6 -2 3 1 C 0 4 0 4 0 1"/>
+            </g>
+        </g>
+
+        <!-- Random squiggly lines for texture -->
+        <g stroke="#000" fill="none" stroke-width="1" opacity="0.6">
+            <path d="M 140 400 Q 150 395 160 400 Q 170 405 180 400" transform="rotate(20 160 400)"/>
+            <path d="M 360 420 Q 370 415 380 420 Q 390 425 400 420" transform="rotate(-30 380 420)"/>
+            <path d="M 580 400 Q 590 395 600 400 Q 610 405 620 400" transform="rotate(45 600 400)"/>
+            <path d="M 800 430 Q 810 425 820 430 Q 830 435 840 430" transform="rotate(-50 820 430)"/>
+            <path d="M 1020 410 Q 1030 405 1040 410 Q 1050 415 1060 410" transform="rotate(65 1040 410)"/>
+        </g>
+
+        <!-- Tons of tiny dots -->
+        <g stroke="#000" fill="#000" opacity="0.4">
+            <circle cx="105" cy="250" r="1"/>
+            <circle cx="185" cy="320" r="1"/>
+            <circle cx="265" cy="280" r="1"/>
+            <circle cx="345" cy="340" r="1"/>
+            <circle cx="425" cy="270" r="1"/>
+            <circle cx="505" cy="330" r="1"/>
+            <circle cx="585" cy="250" r="1"/>
+            <circle cx="665" cy="310" r="1"/>
+            <circle cx="745" cy="280" r="1"/>
+            <circle cx="825" cy="320" r="1"/>
+            <circle cx="905" cy="260" r="1"/>
+            <circle cx="985" cy="300" r="1"/>
+            <circle cx="1065" cy="280" r="1"/>
+            <circle cx="1145" cy="320" r="1"/>
+            
+            <!-- More dots in middle area -->
+            <circle cx="120" cy="460" r="1"/>
+            <circle cx="200" cy="520" r="1"/>
+            <circle cx="280" cy="480" r="1"/>
+            <circle cx="360" cy="540" r="1"/>
+            <circle cx="440" cy="470" r="1"/>
+            <circle cx="520" cy="530" r="1"/>
+            <circle cx="600" cy="450" r="1"/>
+            <circle cx="680" cy="510" r="1"/>
+            <circle cx="760" cy="480" r="1"/>
+            <circle cx="840" cy="520" r="1"/>
+            <circle cx="920" cy="460" r="1"/>
+            <circle cx="1000" cy="500" r="1"/>
+            <circle cx="1080" cy="480" r="1"/>
+            <circle cx="1160" cy="520" r="1"/>
+            
+            <!-- Edge dots -->
+            <circle cx="60" cy="140" r="1"/>
+            <circle cx="60" cy="220" r="1"/>
+            <circle cx="60" cy="300" r="1"/>
+            <circle cx="60" cy="380" r="1"/>
+            <circle cx="60" cy="460" r="1"/>
+            <circle cx="60" cy="540" r="1"/>
+            <circle cx="60" cy="620" r="1"/>
+            <circle cx="60" cy="700" r="1"/>
+            
+            <circle cx="1180" cy="140" r="1"/>
+            <circle cx="1180" cy="220" r="1"/>
+            <circle cx="1180" cy="300" r="1"/>
+            <circle cx="1180" cy="380" r="1"/>
+            <circle cx="1180" cy="460" r="1"/>
+            <circle cx="1180" cy="540" r="1"/>
+            <circle cx="1180" cy="620" r="1"/>
+            <circle cx="1180" cy="700" r="1"/>
+        </g>
+
+        <!-- Mini gears scattered -->
+        <g stroke="#000" fill="none" stroke-width="1">
+            <g transform="translate(220,600) rotate(30) scale(0.3)">
+                <circle cx="0" cy="0" r="5"/>
+                <rect x="-1" y="-6" width="2" height="2"/>
+                <rect x="-1" y="4" width="2" height="2"/>
+                <rect x="-6" y="-1" width="2" height="2"/>
+                <rect x="4" y="-1" width="2" height="2"/>
+            </g>
+            <g transform="translate(500,620) rotate(-45) scale(0.4)">
+                <circle cx="0" cy="0" r="5"/>
+                <rect x="-1" y="-6" width="2" height="2"/>
+                <rect x="-1" y="4" width="2" height="2"/>
+                <rect x="-6" y="-1" width="2" height="2"/>
+                <rect x="4" y="-1" width="2" height="2"/>
+            </g>
+            <g transform="translate(800,600) rotate(60) scale(0.35)">
+                <circle cx="0" cy="0" r="5"/>
+                <rect x="-1" y="-6" width="2" height="2"/>
+                <rect x="-1" y="4" width="2" height="2"/>
+                <rect x="-6" y="-1" width="2" height="2"/>
+                <rect x="4" y="-1" width="2" height="2"/>
+            </g>
+        </g>
+
+        <!-- More tiny question marks -->
+        <g stroke="#000" fill="none" stroke-width="1.5">
+            <g transform="translate(300,550) rotate(25) scale(0.4)">
+                <path d="M 0 -5 Q 4 -5 4 -1 Q 4 1 2 2 Q 1 3 1 4"/>
+                <circle cx="1" cy="6" r="0.8"/>
+            </g>
+            <g transform="translate(650,570) rotate(-40) scale(0.3)">
+                <path d="M 0 -5 Q 4 -5 4 -1 Q 4 1 2 2 Q 1 3 1 4"/>
+                <circle cx="1" cy="6" r="0.8"/>
+            </g>
+            <g transform="translate(950,580) rotate(70) scale(0.45)">
+                <path d="M 0 -5 Q 4 -5 4 -1 Q 4 1 2 2 Q 1 3 1 4"/>
+                <circle cx="1" cy="6" r="0.8"/>
+            </g>
+        </g>
+
+        <!-- Extra mini speech bubbles -->
+        <g stroke="#000" fill="none" stroke-width="1">
+            <g transform="translate(380,600) rotate(35) scale(0.4)">
+                <ellipse cx="0" cy="0" rx="8" ry="5"/>
+                <path d="M -4 4 L -2 7 L -1 4"/>
+            </g>
+            <g transform="translate(720,620) rotate(-25) scale(0.3)">
+                <ellipse cx="0" cy="0" rx="8" ry="5"/>
+                <path d="M -4 4 L -2 7 L -1 4"/>
+            </g>
+        </g>
+
+        <!-- Random small crosses and x marks -->
+        <g stroke="#000" fill="none" stroke-width="1">
+            <g transform="translate(150,600) rotate(15)">
+                <line x1="-2" y1="-2" x2="2" y2="2"/>
+                <line x1="-2" y1="2" x2="2" y2="-2"/>
+            </g>
+            <g transform="translate(450,650) rotate(-30)">
+                <line x1="-2" y1="-2" x2="2" y2="2"/>
+                <line x1="-2" y1="2" x2="2" y2="-2"/>
+            </g>
+            <g transform="translate(750,680) rotate(45)">
+                <line x1="-2" y1="-2" x2="2" y2="2"/>
+                <line x1="-2" y1="2" x2="2" y2="-2"/>
+            </g>
+            <g transform="translate(1050,650) rotate(-60)">
+                <line x1="-2" y1="-2" x2="2" y2="2"/>
+                <line x1="-2" y1="2" x2="2" y2="-2"/>
+            </g>
+        </g>
+
+        <!-- Final layer: Super tiny random elements -->
+        <g stroke="#000" fill="none" stroke-width="0.8" opacity="0.5">
+            <rect x="125" y="380" width="3" height="2" transform="rotate(40 126.5 381)"/>
+            <rect x="315" y="420" width="2" height="3" transform="rotate(-55 316 421.5)"/>
+            <rect x="535" y="390" width="3" height="3" transform="rotate(25 536.5 391.5)"/>
+            <rect x="715" y="410" width="2" height="3" transform="rotate(-35 716 411.5)"/>
+            <rect x="915" y="380" width="3" height="2" transform="rotate(65 916.5 381)"/>
+            <circle cx="175" cy="400" r="1.5" transform="rotate(20 175 400)"/>
+            <circle cx="375" cy="440" r="1.2" transform="rotate(-40 375 440)"/>
+            <circle cx="575" cy="410" r="1.8" transform="rotate(50 575 410)"/>
+            <circle cx="775" cy="430" r="1.3" transform="rotate(-25 775 430)"/>
+            <circle cx="975" cy="400" r="1.6" transform="rotate(75 975 400)"/>
+        </g>
+
+        <!-- ULTIMATE DENSITY LAYER - Fill everything! -->
+        
+        <!-- Massive grid of micro elements -->
+        <g stroke="#000" fill="none" stroke-width="0.5" opacity="0.3">
+            <!-- Top row micro elements -->
+            <circle cx="40" cy="40" r="1.5" transform="rotate(10 40 40)"/>
+            <circle cx="80" cy="45" r="1.2" transform="rotate(-15 80 45)"/>
+            <circle cx="120" cy="38" r="1.8" transform="rotate(25 120 38)"/>
+            <circle cx="160" cy="42" r="1.3" transform="rotate(-35 160 42)"/>
+            <circle cx="200" cy="46" r="1.6" transform="rotate(45 200 46)"/>
+            <circle cx="240" cy="39" r="1.4" transform="rotate(-25 240 39)"/>
+            <circle cx="280" cy="43" r="1.7" transform="rotate(55 280 43)"/>
+            <circle cx="320" cy="41" r="1.1" transform="rotate(-45 320 41)"/>
+            <circle cx="360" cy="44" r="1.5" transform="rotate(65 360 44)"/>
+            <circle cx="400" cy="37" r="1.9" transform="rotate(-55 400 37)"/>
+            <circle cx="440" cy="45" r="1.3" transform="rotate(75 440 45)"/>
+            <circle cx="480" cy="40" r="1.6" transform="rotate(-65 480 40)"/>
+            <circle cx="520" cy="43" r="1.2" transform="rotate(85 520 43)"/>
+            <circle cx="560" cy="38" r="1.7" transform="rotate(-75 560 38)"/>
+            <circle cx="600" cy="46" r="1.4" transform="rotate(95 600 46)"/>
+            <circle cx="640" cy="41" r="1.8" transform="rotate(-85 640 41)"/>
+            <circle cx="680" cy="44" r="1.1" transform="rotate(105 680 44)"/>
+            <circle cx="720" cy="37" r="1.5" transform="rotate(-95 720 37)"/>
+            <circle cx="760" cy="42" r="1.6" transform="rotate(115 760 42)"/>
+            <circle cx="800" cy="45" r="1.3" transform="rotate(-105 800 45)"/>
+            <circle cx="840" cy="39" r="1.9" transform="rotate(125 840 39)"/>
+            <circle cx="880" cy="43" r="1.2" transform="rotate(-115 880 43)"/>
+            <circle cx="920" cy="38" r="1.7" transform="rotate(135 920 38)"/>
+            <circle cx="960" cy="46" r="1.4" transform="rotate(-125 960 46)"/>
+            <circle cx="1000" cy="41" r="1.8" transform="rotate(145 1000 41)"/>
+            <circle cx="1040" cy="44" r="1.1" transform="rotate(-135 1040 44)"/>
+            <circle cx="1080" cy="37" r="1.5" transform="rotate(155 1080 37)"/>
+            <circle cx="1120" cy="42" r="1.6" transform="rotate(-145 1120 42)"/>
+            <circle cx="1160" cy="45" r="1.3" transform="rotate(165 1160 45)"/>
+            
+            <!-- Left edge vertical line -->
+            <circle cx="35" cy="80" r="1.1" transform="rotate(20 35 80)"/>
+            <circle cx="38" cy="120" r="1.4" transform="rotate(-30 38 120)"/>
+            <circle cx="42" cy="160" r="1.2" transform="rotate(40 42 160)"/>
+            <circle cx="35" cy="200" r="1.8" transform="rotate(-50 35 200)"/>
+            <circle cx="39" cy="240" r="1.3" transform="rotate(60 39 240)"/>
+            <circle cx="36" cy="280" r="1.7" transform="rotate(-70 36 280)"/>
+            <circle cx="41" cy="320" r="1.5" transform="rotate(80 41 320)"/>
+            <circle cx="37" cy="360" r="1.2" transform="rotate(-90 37 360)"/>
+            <circle cx="40" cy="400" r="1.9" transform="rotate(100 40 400)"/>
+            <circle cx="34" cy="440" r="1.4" transform="rotate(-110 34 440)"/>
+            <circle cx="43" cy="480" r="1.6" transform="rotate(120 43 480)"/>
+            <circle cx="38" cy="520" r="1.1" transform="rotate(-130 38 520)"/>
+            <circle cx="35" cy="560" r="1.8" transform="rotate(140 35 560)"/>
+            <circle cx="41" cy="600" r="1.3" transform="rotate(-150 41 600)"/>
+            <circle cx="37" cy="640" r="1.7" transform="rotate(160 37 640)"/>
+            <circle cx="39" cy="680" r="1.5" transform="rotate(-170 39 680)"/>
+            <circle cx="36" cy="720" r="1.2" transform="rotate(180 36 720)"/>
+            <circle cx="42" cy="760" r="1.9" transform="rotate(-10 42 760)"/>
+            
+            <!-- Right edge vertical line -->
+            <circle cx="1185" cy="80" r="1.3" transform="rotate(25 1185 80)"/>
+            <circle cx="1182" cy="120" r="1.6" transform="rotate(-35 1182 120)"/>
+            <circle cx="1188" cy="160" r="1.1" transform="rotate(45 1188 160)"/>
+            <circle cx="1185" cy="200" r="1.7" transform="rotate(-55 1185 200)"/>
+            <circle cx="1181" cy="240" r="1.4" transform="rotate(65 1181 240)"/>
+            <circle cx="1186" cy="280" r="1.8" transform="rotate(-75 1186 280)"/>
+            <circle cx="1183" cy="320" r="1.2" transform="rotate(85 1183 320)"/>
+            <circle cx="1187" cy="360" r="1.5" transform="rotate(-95 1187 360)"/>
+            <circle cx="1180" cy="400" r="1.9" transform="rotate(105 1180 400)"/>
+            <circle cx="1184" cy="440" r="1.3" transform="rotate(-115 1184 440)"/>
+            <circle cx="1189" cy="480" r="1.6" transform="rotate(125 1189 480)"/>
+            <circle cx="1182" cy="520" r="1.1" transform="rotate(-135 1182 520)"/>
+            <circle cx="1185" cy="560" r="1.8" transform="rotate(145 1185 560)"/>
+            <circle cx="1181" cy="600" r="1.4" transform="rotate(-155 1181 600)"/>
+            <circle cx="1187" cy="640" r="1.7" transform="rotate(165 1187 640)"/>
+            <circle cx="1184" cy="680" r="1.2" transform="rotate(-175 1184 680)"/>
+            <circle cx="1186" cy="720" r="1.5" transform="rotate(15 1186 720)"/>
+            <circle cx="1183" cy="760" r="1.9" transform="rotate(-25 1183 760)"/>
+            
+            <!-- Bottom row -->
+            <circle cx="60" cy="780" r="1.2" transform="rotate(30 60 780)"/>
+            <circle cx="100" cy="785" r="1.5" transform="rotate(-40 100 785)"/>
+            <circle cx="140" cy="778" r="1.8" transform="rotate(50 140 778)"/>
+            <circle cx="180" cy="782" r="1.1" transform="rotate(-60 180 782)"/>
+            <circle cx="220" cy="786" r="1.6" transform="rotate(70 220 786)"/>
+            <circle cx="260" cy="779" r="1.4" transform="rotate(-80 260 779)"/>
+            <circle cx="300" cy="783" r="1.7" transform="rotate(90 300 783)"/>
+            <circle cx="340" cy="781" r="1.3" transform="rotate(-100 340 781)"/>
+            <circle cx="380" cy="784" r="1.9" transform="rotate(110 380 784)"/>
+            <circle cx="420" cy="777" r="1.2" transform="rotate(-120 420 777)"/>
+            <circle cx="460" cy="785" r="1.5" transform="rotate(130 460 785)"/>
+            <circle cx="500" cy="780" r="1.8" transform="rotate(-140 500 780)"/>
+            <circle cx="540" cy="783" r="1.1" transform="rotate(150 540 783)"/>
+            <circle cx="580" cy="778" r="1.6" transform="rotate(-160 580 778)"/>
+            <circle cx="620" cy="786" r="1.4" transform="rotate(170 620 786)"/>
+            <circle cx="660" cy="781" r="1.7" transform="rotate(-180 660 781)"/>
+            <circle cx="700" cy="784" r="1.3" transform="rotate(10 700 784)"/>
+            <circle cx="740" cy="777" r="1.9" transform="rotate(-20 740 777)"/>
+            <circle cx="780" cy="785" r="1.2" transform="rotate(35 780 785)"/>
+            <circle cx="820" cy="780" r="1.5" transform="rotate(-45 820 780)"/>
+            <circle cx="860" cy="783" r="1.8" transform="rotate(55 860 783)"/>
+            <circle cx="900" cy="778" r="1.1" transform="rotate(-65 900 778)"/>
+            <circle cx="940" cy="786" r="1.6" transform="rotate(75 940 786)"/>
+            <circle cx="980" cy="781" r="1.4" transform="rotate(-85 980 781)"/>
+            <circle cx="1020" cy="784" r="1.7" transform="rotate(95 1020 784)"/>
+            <circle cx="1060" cy="777" r="1.3" transform="rotate(-105 1060 777)"/>
+            <circle cx="1100" cy="785" r="1.9" transform="rotate(115 1100 785)"/>
+            <circle cx="1140" cy="780" r="1.2" transform="rotate(-125 1140 780)"/>
+        </g>
+
+        <!-- Fill the middle zones completely -->
+        <g stroke="#000" fill="none" stroke-width="0.6" opacity="0.25">
+            <!-- Zone 1: Top-left quadrant fills -->
+            <rect x="95" y="100" width="2" height="2" transform="rotate(12 96 101)"/>
+            <rect x="135" y="110" width="2" height="2" transform="rotate(-18 136 111)"/>
+            <rect x="175" y="95" width="2" height="2" transform="rotate(24 176 96)"/>
+            <rect x="215" y="105" width="2" height="2" transform="rotate(-30 216 106)"/>
+            <rect x="255" y="115" width="2" height="2" transform="rotate(36 256 116)"/>
+            <rect x="295" y="90" width="2" height="2" transform="rotate(-42 296 91)"/>
+            <rect x="335" y="100" width="2" height="2" transform="rotate(48 336 101)"/>
+            <rect x="375" y="110" width="2" height="2" transform="rotate(-54 376 111)"/>
+            <rect x="415" y="95" width="2" height="2" transform="rotate(60 416 96)"/>
+            <rect x="455" y="105" width="2" height="2" transform="rotate(-66 456 106)"/>
+            <rect x="495" y="115" width="2" height="2" transform="rotate(72 496 116)"/>
+            
+            <!-- Zone 2: Top-right quadrant fills -->
+            <rect x="655" y="100" width="2" height="2" transform="rotate(78 656 101)"/>
+            <rect x="695" y="110" width="2" height="2" transform="rotate(-84 696 111)"/>
+            <rect x="735" y="95" width="2" height="2" transform="rotate(90 736 96)"/>
+            <rect x="775" y="105" width="2" height="2" transform="rotate(-96 776 106)"/>
+            <rect x="815" y="115" width="2" height="2" transform="rotate(102 816 116)"/>
+            <rect x="855" y="90" width="2" height="2" transform="rotate(-108 856 91)"/>
+            <rect x="895" y="100" width="2" height="2" transform="rotate(114 896 101)"/>
+            <rect x="935" y="110" width="2" height="2" transform="rotate(-120 936 111)"/>
+            <rect x="975" y="95" width="2" height="2" transform="rotate(126 976 96)"/>
+            <rect x="1015" y="105" width="2" height="2" transform="rotate(-132 1016 106)"/>
+            <rect x="1055" y="115" width="2" height="2" transform="rotate(138 1056 116)"/>
+            
+            <!-- Zone 3: Bottom-left quadrant fills -->
+            <rect x="95" y="650" width="2" height="2" transform="rotate(144 96 651)"/>
+            <rect x="135" y="660" width="2" height="2" transform="rotate(-150 136 661)"/>
+            <rect x="175" y="645" width="2" height="2" transform="rotate(156 176 646)"/>
+            <rect x="215" y="655" width="2" height="2" transform="rotate(-162 216 656)"/>
+            <rect x="255" y="665" width="2" height="2" transform="rotate(168 256 666)"/>
+            <rect x="295" y="640" width="2" height="2" transform="rotate(-174 296 641)"/>
+            <rect x="335" y="650" width="2" height="2" transform="rotate(180 336 651)"/>
+            <rect x="375" y="660" width="2" height="2" transform="rotate(-6 376 661)"/>
+            <rect x="415" y="645" width="2" height="2" transform="rotate(12 416 646)"/>
+            <rect x="455" y="655" width="2" height="2" transform="rotate(-18 456 656)"/>
+            <rect x="495" y="665" width="2" height="2" transform="rotate(24 496 666)"/>
+            
+            <!-- Zone 4: Bottom-right quadrant fills -->
+            <rect x="655" y="650" width="2" height="2" transform="rotate(30 656 651)"/>
+            <rect x="695" y="660" width="2" height="2" transform="rotate(-36 696 661)"/>
+            <rect x="735" y="645" width="2" height="2" transform="rotate(42 736 646)"/>
+            <rect x="775" y="655" width="2" height="2" transform="rotate(-48 776 656)"/>
+            <rect x="815" y="665" width="2" height="2" transform="rotate(54 816 666)"/>
+            <rect x="855" y="640" width="2" height="2" transform="rotate(-60 856 641)"/>
+            <rect x="895" y="650" width="2" height="2" transform="rotate(66 896 651)"/>
+            <rect x="935" y="660" width="2" height="2" transform="rotate(-72 936 661)"/>
+            <rect x="975" y="645" width="2" height="2" transform="rotate(78 976 646)"/>
+            <rect x="1015" y="655" width="2" height="2" transform="rotate(-84 1016 656)"/>
+            <rect x="1055" y="665" width="2" height="2" transform="rotate(90 1056 666)"/>
+        </g>
+
+        <!-- Ultra-micro scattered elements -->
+        <g stroke="#000" fill="#000" opacity="0.2">
+            <!-- Micro dots everywhere -->
+            <circle cx="72" cy="72" r="0.5"/>
+            <circle cx="108" cy="78" r="0.4"/>
+            <circle cx="142" cy="74" r="0.6"/>
+            <circle cx="178" cy="82" r="0.3"/>
+            <circle cx="212" cy="76" r="0.5"/>
+            <circle cx="248" cy="84" r="0.4"/>
+            <circle cx="282" cy="78" r="0.6"/>
+            <circle cx="318" cy="86" r="0.3"/>
+            <circle cx="352" cy="80" r="0.5"/>
+            <circle cx="388" cy="88" r="0.4"/>
+            <circle cx="422" cy="82" r="0.6"/>
+            <circle cx="458" cy="90" r="0.3"/>
+            <circle cx="492" cy="84" r="0.5"/>
+            <circle cx="528" cy="92" r="0.4"/>
+            <circle cx="562" cy="86" r="0.6"/>
+            <circle cx="598" cy="94" r="0.3"/>
+            <circle cx="632" cy="88" r="0.5"/>
+            <circle cx="668" cy="96" r="0.4"/>
+            <circle cx="702" cy="90" r="0.6"/>
+            <circle cx="738" cy="98" r="0.3"/>
+            <circle cx="772" cy="92" r="0.5"/>
+            <circle cx="808" cy="100" r="0.4"/>
+            <circle cx="842" cy="94" r="0.6"/>
+            <circle cx="878" cy="102" r="0.3"/>
+            <circle cx="912" cy="96" r="0.5"/>
+            <circle cx="948" cy="104" r="0.4"/>
+            <circle cx="982" cy="98" r="0.6"/>
+            <circle cx="1018" cy="106" r="0.3"/>
+            <circle cx="1052" cy="100" r="0.5"/>
+            <circle cx="1088" cy="108" r="0.4"/>
+            <circle cx="1122" cy="102" r="0.6"/>
+            <circle cx="1158" cy="110" r="0.3"/>
+            
+            <!-- Fill vertical gaps -->
+            <circle cx="55" cy="130" r="0.4"/>
+            <circle cx="52" cy="170" r="0.5"/>
+            <circle cx="58" cy="210" r="0.3"/>
+            <circle cx="55" cy="250" r="0.6"/>
+            <circle cx="51" cy="290" r="0.4"/>
+            <circle cx="57" cy="330" r="0.5"/>
+            <circle cx="54" cy="370" r="0.3"/>
+            <circle cx="59" cy="410" r="0.6"/>
+            <circle cx="56" cy="450" r="0.4"/>
+            <circle cx="52" cy="490" r="0.5"/>
+            <circle cx="58" cy="530" r="0.3"/>
+            <circle cx="55" cy="570" r="0.6"/>
+            <circle cx="51" cy="610" r="0.4"/>
+            <circle cx="57" cy="650" r="0.5"/>
+            <circle cx="54" cy="690" r="0.3"/>
+            <circle cx="59" cy="730" r="0.6"/>
+            
+            <!-- Right edge micro dots -->
+            <circle cx="1195" cy="130" r="0.5"/>
+            <circle cx="1192" cy="170" r="0.4"/>
+            <circle cx="1198" cy="210" r="0.6"/>
+            <circle cx="1195" cy="250" r="0.3"/>
+            <circle cx="1191" cy="290" r="0.5"/>
+            <circle cx="1197" cy="330" r="0.4"/>
+            <circle cx="1194" cy="370" r="0.6"/>
+            <circle cx="1199" cy="410" r="0.3"/>
+            <circle cx="1196" cy="450" r="0.5"/>
+            <circle cx="1192" cy="490" r="0.4"/>
+            <circle cx="1198" cy="530" r="0.6"/>
+            <circle cx="1195" cy="570" r="0.3"/>
+            <circle cx="1191" cy="610" r="0.5"/>
+            <circle cx="1197" cy="650" r="0.4"/>
+            <circle cx="1194" cy="690" r="0.6"/>
+            <circle cx="1199" cy="730" r="0.3"/>
+        </g>
+
+        <!-- Super-micro texture patterns -->
+        <g stroke="#000" fill="none" stroke-width="0.3" opacity="0.15">
+            <!-- Horizontal micro-lines -->
+            <line x1="85" y1="125" x2="95" y2="127" transform="rotate(5 90 126)"/>
+            <line x1="125" y1="135" x2="135" y2="137" transform="rotate(-8 130 136)"/>
+            <line x1="165" y1="145" x2="175" y2="147" transform="rotate(12 170 146)"/>
+            <line x1="205" y1="155" x2="215" y2="157" transform="rotate(-15 210 156)"/>
+            <line x1="245" y1="165" x2="255" y2="167" transform="rotate(18 250 166)"/>
+            <line x1="285" y1="175" x2="295" y2="177" transform="rotate(-22 290 176)"/>
+            <line x1="325" y1="185" x2="335" y2="187" transform="rotate(25 330 186)"/>
+            <line x1="365" y1="195" x2="375" y2="197" transform="rotate(-28 370 196)"/>
+            <line x1="405" y1="205" x2="415" y2="207" transform="rotate(32 410 206)"/>
+            <line x1="445" y1="215" x2="455" y2="217" transform="rotate(-35 450 216)"/>
+            <line x1="485" y1="225" x2="495" y2="227" transform="rotate(38 490 226)"/>
+            <line x1="525" y1="235" x2="535" y2="237" transform="rotate(-42 530 236)"/>
+            <line x1="565" y1="245" x2="575" y2="247" transform="rotate(45 570 246)"/>
+            <line x1="605" y1="255" x2="615" y2="257" transform="rotate(-48 610 256)"/>
+            <line x1="645" y1="265" x2="655" y2="267" transform="rotate(52 650 266)"/>
+            <line x1="685" y1="275" x2="695" y2="277" transform="rotate(-55 690 276)"/>
+            <line x1="725" y1="285" x2="735" y2="287" transform="rotate(58 730 286)"/>
+            <line x1="765" y1="295" x2="775" y2="297" transform="rotate(-62 770 296)"/>
+            <line x1="805" y1="305" x2="815" y2="307" transform="rotate(65 810 306)"/>
+            <line x1="845" y1="315" x2="855" y2="317" transform="rotate(-68 850 316)"/>
+            <line x1="885" y1="325" x2="895" y2="327" transform="rotate(72 890 326)"/>
+            <line x1="925" y1="335" x2="935" y2="337" transform="rotate(-75 930 336)"/>
+            <line x1="965" y1="345" x2="975" y2="347" transform="rotate(78 970 346)"/>
+            <line x1="1005" y1="355" x2="1015" y2="357" transform="rotate(-82 1010 356)"/>
+            <line x1="1045" y1="365" x2="1055" y2="367" transform="rotate(85 1050 366)"/>
+            <line x1="1085" y1="375" x2="1095" y2="377" transform="rotate(-88 1090 376)"/>
+            
+            <!-- Vertical micro-lines -->
+            <line x1="90" y1="500" x2="92" y2="510" transform="rotate(10 91 505)"/>
+            <line x1="130" y1="510" x2="132" y2="520" transform="rotate(-13 131 515)"/>
+            <line x1="170" y1="520" x2="172" y2="530" transform="rotate(16 171 525)"/>
+            <line x1="210" y1="530" x2="212" y2="540" transform="rotate(-19 211 535)"/>
+            <line x1="250" y1="540" x2="252" y2="550" transform="rotate(23 251 545)"/>
+            <line x1="290" y1="550" x2="292" y2="560" transform="rotate(-26 291 555)"/>
+            <line x1="330" y1="560" x2="332" y2="570" transform="rotate(29 331 565)"/>
+            <line x1="370" y1="570" x2="372" y2="580" transform="rotate(-33 371 575)"/>
+            <line x1="410" y1="580" x2="412" y2="590" transform="rotate(36 411 585)"/>
+            <line x1="450" y1="590" x2="452" y2="600" transform="rotate(-39 451 595)"/>
+            <line x1="490" y1="600" x2="492" y2="610" transform="rotate(43 491 605)"/>
+            <line x1="530" y1="610" x2="532" y2="620" transform="rotate(-46 531 615)"/>
+            <line x1="570" y1="620" x2="572" y2="630" transform="rotate(49 571 625)"/>
+            <line x1="610" y1="630" x2="612" y2="640" transform="rotate(-53 611 635)"/>
+            <line x1="650" y1="640" x2="652" y2="650" transform="rotate(56 651 645)"/>
+            <line x1="690" y1="650" x2="692" y2="660" transform="rotate(-59 691 655)"/>
+            <line x1="730" y1="660" x2="732" y2="670" transform="rotate(63 731 665)"/>
+            <line x1="770" y1="670" x2="772" y2="680" transform="rotate(-66 771 675)"/>
+            <line x1="810" y1="680" x2="812" y2="690" transform="rotate(69 811 685)"/>
+            <line x1="850" y1="690" x2="852" y2="700" transform="rotate(-73 851 695)"/>
+            <line x1="890" y1="700" x2="892" y2="710" transform="rotate(76 891 705)"/>
+            <line x1="930" y1="710" x2="932" y2="720" transform="rotate(-79 931 715)"/>
+            <line x1="970" y1="720" x2="972" y2="730" transform="rotate(83 971 725)"/>
+            <line x1="1010" y1="730" x2="1012" y2="740" transform="rotate(-86 1011 735)"/>
+            <line x1="1050" y1="740" x2="1052" y2="750" transform="rotate(89 1051 745)"/>
+        </g>
     </svg>
 
     <div class="container">
@@ -561,4 +1513,4 @@
         document.addEventListener('DOMContentLoaded', init);
     </script>
 </body>
-</html>
+</html>%                                                                        lenathorsmaehlum@Lenas-MacBook-Air ~ % 
