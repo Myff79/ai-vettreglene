@@ -149,8 +149,20 @@
         }
 
         .rule-examples.active {
-            max-height: 500px;
+            max-height: 600px;
             padding-top: 1rem;
+        }
+
+        .detailed-text {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #555;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            border-left: 4px solid #ff6b6b;
+            font-style: italic;
         }
 
         .example-section {
@@ -1336,7 +1348,7 @@
 
     <div class="container">
         <div class="main-title">
-            <h1>AI-vettreglene</h1>
+            <h1>KI-vettreglene</h1>
         </div>
 
         <div class="click-hint">
@@ -1353,99 +1365,108 @@
             {
                 number: 1,
                 title: "Ta med det du har",
-                description: "Jo mer relevant kontekst du gir AI-en, desto bedre svar får du. Del alt som er relevant for oppgaven.",
+                description: "Jo bedre informasjon du gir KI-en, desto bedre svar får du. Del alt som er relevant for oppgaven.",
+                detailedText: "Tenk på KI som en person du ber om hjelp. Hvis du skal få noen til hjelpe deg, hva gjør du da? Du forklarer hvorfor, hva du vil ha, og hva slags resultat du ønsker.",
                 examples: [
                     {
-                        bad: "Lag en plan",
-                        good: "Lag en plan for en 17-åring som vil starte en podcast om gaming, har 2000 kr budsjett, og vil ha sitt første program klart om 3 uker"
+                        bad: "Lag en plan for en podcast",
+                        good: "Hjelp meg med en plan for en 17-åring som vil starte en podcast om gaming, har 2000 kr budsjett, og vil ha sitt første program klart om 3 uker. Podcasten har jevnaldrende som målgruppe."
                     }
                 ]
             },
             {
                 number: 2,
                 title: "Gi den en rolle",
-                description: "Be AI-en om å opptre som en ekspert eller spesialist innen det området du trenger hjelp med.",
+                description: "Be KI-en om å opptre som en ekspert eller spesialist innen det området du trenger hjelp med.",
+                detailedText: "Som når Neo i Matrix laster ned Kung Fu - KI kan bli hvilken som helst ekspert du trenger. Bare si 'Du er lærer' eller 'Du er markedsføringsekspert'",
                 examples: [
                     {
                         bad: "Hjelp meg med markedsføring",
-                        good: "Du er en erfaren digital markedsfører med 10 år erfaring. Hjelp meg lage en markedsstrategi for en ny app rettet mot studenter"
+                        good: "Du er en erfaren digital markedsfører. Hjelp meg lage en markedsstrategi for en ny app rettet mot studenter"
                     }
                 ]
             },
             {
                 number: 3,
                 title: "Spør igjen",
-                description: "Still oppfølgingsspørsmål som om du snakker med en venn. AI-en kan utdype og forklare bedre.",
+                description: "Still oppfølgingsspørsmål som om du snakker med en venn. Be om hjelp hvis du står fast. KI-en kan utdype og forklare bedre.",
+                detailedText: "Du vet når du snakker med noen - du tar ikke bare første svar og går. Du følger opp: 'Men hva hvis...', 'Kan du utdype det?', 'Hva mener du med...?' Hvis du står fast eller får dårlige svar, kan du også spørre KI: 'Hvordan kan jeg stille dette spørsmålet bedre?' eller 'Basert på informasjonen jeg har gitt deg, lag en ny prompt som hjelper meg få bedre svar.'",
                 examples: [
                     {
-                        bad: "Takk, det var alt",
-                        good: "Men hva hvis jeg har begrenset budsjett? Kan du utdype punkt 3? Hvilke feil bør jeg unngå?"
+                        bad: "Gir opp etter første dårlige svar",
+                        good: "Men hva hvis jeg har begrenset budsjett? eller Basert på det jeg har fortalt om podcast-ideen min, lag en prompt som hjelper meg få mer konkrete råd"
                     }
                 ]
             },
             {
                 number: 4,
                 title: "Snakk med flere",
-                description: "Bruk forskjellige AI-er til det de er best på. Hver har sine styrker og svakheter.",
+                description: "Bruk forskjellige KI-er til det de er best på. Hver har sine styrker og svakheter.",
+                detailedText: "Tenk på slik du spør flere folk om råd om samme problem - de gir deg ulike perspektiver. Test samme spørsmål på forskjellige KI-er.",
                 examples: [
                     {
-                        bad: "Bruker bare én AI til alt",
-                        good: "ChatGPT for kreativ skriving, Claude for dype analyser, GitHub Copilot for koding, Midjourney for bilder"
+                        bad: "Bruk bare én KI til alt",
+                        good: "Bruk flere KI-er, lær deg deres styrker og svakheter, og hvordan det føles å samarbeide med dem i ulike oppgaver."
                     }
                 ]
             },
             {
                 number: 5,
                 title: "Bruk alle sansene",
-                description: "Last opp bilder, bruk tale, del skjermbilder. AI-en kan tolke mer enn bare tekst.",
+                description: "Last opp bilder, bruk tale, del linker. KI-en kan tolke mer enn bare tekst.",
+                detailedText: "Du vet hvor mye enklere det er å vise et bilde for å forklare noe? Bruk KI på samme måte, den kan håndtere bilder, lyd og tale. De fleste KI-er kan nå se, lytte og snakke med deg.",
                 examples: [
                     {
                         bad: "Bare tekstbeskrivelser",
-                        good: "Laster opp screenshot av designet + snakker høyt om problemet + deler Excel-filen som referanse"
+                        good: "Last opp et bilde som forklarer, vis den en video, forklar med stemmen din, del en fil med den."
                     }
                 ]
             },
             {
                 number: 6,
                 title: "Start med en samtale",
-                description: "Tenk høyt sammen med AI-en. Bruk den som en samtale-partner, ikke bare en søkemotor.",
+                description: "Ta opp deg selv mens du tenker høyt om problemet. KI-en kan jobbe videre sammen med deg med det du sa.",
+                detailedText: "Som når du tenker høyt for å klargjøre tankene dine. Snakk om hva du vil gjøre og ta det opp. KI-en kan bruke opptaket ditt som en start. Dette hjelper når du ikke vet hvor du skal begynne.",
                 examples: [
                     {
-                        bad: "Gi meg svaret på dette problemet",
-                        good: "La oss tenke gjennom dette sammen. Jeg er usikker på om jeg skal velge strategi A eller B. Hva tenker du om fordeler og ulemper ved hver?"
+                        bad: "Sitter fast og vet ikke hvor du skal begynne",
+                        good: "Ta opp deg selv: 'Altså, jeg har lyst til å starte podcast, men jeg vet ikke helt... jeg liker gaming, men er det interessant?' - gi lydfilen til AI og si 'hjelp meg å utvikle disse ideene'"
                     }
                 ]
             },
             {
                 number: 7,
-                title: "Du er sjefen",
-                description: "Tenk kritisk på svarene. AI-en kan ta feil. Sjekk kilder og bruk sunn fornuft.",
+                title: "Du er sjefen - sjekk alltid",
+                description: "Tenk kritisk på svarene og spør om kilder. Du vet når noen sier 'jeg leste et sted at...' - gjør det samme med KI.",
+                detailedText: "Tenk alltid på KI som en rådgiver. Den foreslår, du bestemmer. Sjekk om rådet gir mening for deg. Spør: 'Hvor kommer dette fra?' be KI-en markere hva den er usikker på. Vurder svaret kritisk før du bruker det. Det du sender fra deg er alltid ditt ansvar.",
                 examples: [
                     {
-                        bad: "Tar alt AI sier for god fisk",
-                        good: "Dette høres rart ut - kan du forklare hvordan du kom frem til dette? Har du kilder på den påstanden?"
+                        bad: "Tar alt KI sier for god fisk",
+                        good: "Dette høres rart ut - kan du forklare hvordan du kom frem til dette? Har du kilder? Merk gjerne hvor du er usikker"
                     }
                 ]
             },
             {
                 number: 8,
-                title: "Be om kilder og merk usikkerhet",
-                description: "Spør alltid om kilder og be AI-en om å markere når den er usikker på noe.",
+                title: "Vend i tide - vokt deg for kaninhull",
+                description: "Ikke forbli i evige samtaler. Sett mål for samtalen og vit når du skal stoppe.",
+                detailedText: "Som når du går deg vill i en lang samtale og må si 'ok wait, la oss starte på nytt'. Hvis du drukner i informasjon eller går i sirkel med KI-en, ta en pause. Det er ingen skam å begynne på nytt med enklere spørsmål.",
                 examples: [
                     {
-                        bad: "Godtar påstander uten dokumentasjon",
-                        good: "Hvor fikk du denne informasjonen fra? Kan du markere hvilke deler du er usikker på? Har du oppdaterte tall på dette?"
+                        bad: "Blir hengende i uendelige diskusjoner om detaljene",
+                        good: "Nå har vi dekket hovedpunktene jeg trengte. La meg teste dette først, så kommer jeg tilbake om jeg trenger mer hjelp"
                     }
                 ]
             },
             {
                 number: 9,
-                title: "Vend i tide - vokt deg for kaninhull",
-                description: "Ikke bli hengende i evige samtaler. Sett mål for samtalen og vit når du skal stoppe.",
+                title: "Ha det gøy!",
+                description: "KI åpner for helt nye muligheter - test ville ideer og vær kreativ.",
+                detailedText: "KI kan hjelpe deg med ting du aldri trodde var mulig. Prøv kreative oppgaver, eksperimenter med rare ideer, bruk KI til kunst, humor eller helt andre prosjekter. Det beste kommer ofte når du leker deg og tester grenser.",
                 examples: [
                     {
-                        bad: "Blir hengende i uendelige diskusjoner om detaljene",
-                        good: "Nå har vi dekket hovedpunktene jeg trengte. La meg teste dette først, så kommer jeg tilbake om jeg trenger mer hjelp"
+                        bad: "Bruker bare KI til det du allerede vet den kan",
+                        good: "Test hva som skjer hvis du gir KI en lyd og ber om en farge eller Se hva KI gjør med et bilde av rommet ditt og instruksjonen 'lag dette til en plass jeg aldri har sett før'"
                     }
                 ]
             }
@@ -1471,6 +1492,7 @@
                 <div class="rule-title">${rule.title}</div>
                 <div class="rule-description">${rule.description}</div>
                 <div class="rule-examples" id="examples-${rule.number}">
+                    ${rule.detailedText ? `<div class="detailed-text">${rule.detailedText}</div>` : ''}
                     ${examplesHTML}
                 </div>
             `;
