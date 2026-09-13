@@ -29,9 +29,7 @@
 
         body {
             font-family: 'Kalam', cursive;
-            background:
-                linear-gradient(rgba(244, 236, 216, 0.55), rgba(244, 236, 216, 0.55)),
-                url('ai-guidelines-mountain-final.png') center top / cover no-repeat fixed;
+            background: url('ai-guidelines-mountain-final.png') center top / cover no-repeat fixed;
             min-height: 100vh;
             position: relative;
             overflow-x: hidden;
@@ -213,11 +211,18 @@
         }
 
         .click-hint {
-            text-align: center;
-            color: var(--ink-soft);
+            color: var(--ink);
             font-size: 0.9rem;
-            margin-bottom: 2rem;
             font-style: italic;
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            background: rgba(247, 241, 227, 0.85);
+            border-radius: 20px;
+        }
+
+        .click-hint-wrap {
+            text-align: center;
+            margin-bottom: 2rem;
         }
 
         /* Responsive design */
@@ -243,8 +248,10 @@
             <h1>KI-vettreglene</h1>
         </div>
 
-        <div class="click-hint">
-            💡 Klikk på et regelkort for å se praktiske eksempler!
+        <div class="click-hint-wrap">
+            <div class="click-hint">
+                💡 Klikk på et regelkort for å se praktiske eksempler!
+            </div>
         </div>
 
         <div class="rules-grid" id="rulesGrid">
